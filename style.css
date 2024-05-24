@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(IMG_2234.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+.link{
+    margin-right: 250px;
+
+}
+.link a{
+    padding-left: 45px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.link a:hover{
+    color: violet;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .3s;
+
+}
+main{
+    margin-top: 200px;
+    margin-left: 95px;
+}
+h2{
+    padding-left: 100px;
+    font-weight: bold;
+
+}
+span{
+    color: violet;
+}
+h1{
+    color: violet;
+    margin-bottom: 2rem;
+}
+h4{
+    margin-bottom: 1rem;
+}
+h5{
+    text-align: center;
+    width: 50%;
+}
+h3{
+    text-align: center;
+    width: 55%;
+}
